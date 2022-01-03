@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-AppLovin-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-AppLovin-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-AppLovin-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-AppLovin-Adapter: 6422dfa95a318f43bc4399cd9e7b71d3f3b66e08
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ae60cef4acbb90a0bf98664f7138e8a9b2da87c3
+
+COCOAPODS: 1.11.2

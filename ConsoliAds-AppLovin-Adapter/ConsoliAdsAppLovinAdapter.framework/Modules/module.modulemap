@@ -1,0 +1,6 @@
+framework module ConsoliAdsAppLovinAdapter {
+  umbrella header "ConsoliAdsAppLovinAdapter.h"
+
+  export *
+  module * { export * }
+}
