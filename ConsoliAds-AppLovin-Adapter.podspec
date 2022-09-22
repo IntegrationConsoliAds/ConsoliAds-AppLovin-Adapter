@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-AppLovin-Adapter'
-  s.version          = '10.3.7-1.2'
+  s.version          = '11.4.3-v14.1.0'
   s.summary          = 'This pod is used to get caapplovin adapter for applovinAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,6 @@ Pod::Spec.new do |s|
 
 s.vendored_frameworks = 'ConsoliAds-AppLovin-Adapter/ConsoliAdsAppLovinAdapter.xcframework'
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
-
-s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES'}
-s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES'}
 s.static_framework = true
 
 end
